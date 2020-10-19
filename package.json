@@ -1,0 +1,16 @@
+{
+  "name": "entrega1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.16.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
